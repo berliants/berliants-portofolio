@@ -558,6 +558,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column: span 12 / span 12;
 }
 
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
 .col-start-4 {
   grid-column-start: 4;
 }
@@ -720,6 +724,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 400px;
 }
 
+.h-\[120px\] {
+  height: 120px;
+}
+
+.h-\[50px\] {
+  height: 50px;
+}
+
+.h-fit {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .w-full {
   width: 100%;
 }
@@ -792,6 +810,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 200px;
 }
 
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-\[320px\] {
+  width: 320px;
+}
+
+.w-\[520px\] {
+  width: 520px;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[220px\] {
+  width: 220px;
+}
+
+.w-\[60px\] {
+  width: 60px;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -862,6 +906,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
+.rounded-\[24px\] {
+  border-radius: 24px;
+}
+
+.rounded-\[50\%\] {
+  border-radius: 50%;
+}
+
+.rounded-\[100px\] {
+  border-radius: 100px;
+}
+
+.rounded-\[200px\] {
+  border-radius: 200px;
+}
+
 .border-2 {
   border-width: 2px;
 }
@@ -900,6 +960,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(26 26 26 / var(--tw-bg-opacity));
 }
 
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
+.bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+}
+
 .fill-white {
   fill: #fff;
 }
@@ -914,6 +984,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-\[46px\] {
   padding: 46px;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .pl-5 {
@@ -1275,6 +1353,10 @@ body {
     width: fit-content;
   }
 
+  .sm\:w-\[85\%\] {
+    width: 85%;
+  }
+
   .sm\:justify-items-center {
     justify-items: center;
   }
@@ -1346,6 +1428,10 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:col-span-12 {
+    grid-column: span 12 / span 12;
+  }
+
   .md\:col-start-4 {
     grid-column-start: 4;
   }
@@ -1400,6 +1486,10 @@ body {
 
   .md\:w-\[320px\] {
     width: 320px;
+  }
+
+  .md\:w-\[420px\] {
+    width: 420px;
   }
 
   .md\:justify-center {
