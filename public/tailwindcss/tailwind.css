@@ -772,6 +772,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 35px;
 }
 
+.w-\[15px\] {
+  width: 15px;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
