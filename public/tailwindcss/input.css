@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1A1A1A;
+  font-family: 'ubuntu', sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply bg-color3
+}
+.hamburger-active > span:nth-child(2) {
+  @apply bg-color3
+}
+.hamburger-active > span:nth-child(3) {
+  @apply bg-color3
+}
+
+.nav-menu {
+  @apply absolute flex flex-col right-[20px] top-[70px] nav-color border-2 border-solid border-color2 rounded-[15px] w-fit pl-7 pr-7 h-[200px] justify-evenly
+}
+
+.nav-color {
+  background-color: rgba(26, 26, 26, 0.9);
+}
