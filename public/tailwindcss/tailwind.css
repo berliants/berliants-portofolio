@@ -716,6 +716,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 24rem;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -774,6 +778,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[15px\] {
   width: 15px;
+}
+
+.w-\[720px\] {
+  width: 720px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[200px\] {
+  width: 200px;
 }
 
 .cursor-pointer {
